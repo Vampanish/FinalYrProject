@@ -1,0 +1,56 @@
+# Dataset files (large)
+wustl_iiot_2021.csv
+*.csv
+
+# Model archives
+*.zip
+model.zip
+
+# Ignore other model folders (keep only models_sample1100k)
+models_sample100k/
+models_sample200k/
+models_sample300k/
+models_sample400k/
+models_sample500k/
+models_sample600k/
+models_sample700k/
+models_sample800k/
+models_sample900k/
+models_sample1000k/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keys and sensitive data
+*_private.pem
+*_public.pem
+
+# Logs and outputs
+*.log
+output/
+results/
